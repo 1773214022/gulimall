@@ -1,0 +1,95 @@
+# Numerous always-ignore extensions
+*.bak
+*.patch
+*.diff
+*.err
+
+# temp file for git conflict merging
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.zip
+*.vi
+*~
+*.sass-cache
+*.tmp.html
+*.dump
+
+# OS or Editor folders
+.DS_Store
+._*
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+thumbs.db
+*.iml
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+.idea
+node_modules/
+jscoverage_lib/
+bower_components/
+dist/
+
+
+# maven ignore
+target/
+*.versionsBackup
+.factorypath
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+*rebel.xml
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+.vscode
+/src/main/resources/config/application-default.yml
+## Maven release plugin
+#/src/main/resources/config/application.yml
+#/src/main/resources/config/application-dev.yml
+#/src/main/java/org/hzero/hps/its/config/MsHrmsExtraDataManager.java

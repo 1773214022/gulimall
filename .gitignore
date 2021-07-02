@@ -93,3 +93,6 @@ Thumbs.db
 #/src/main/resources/config/application.yml
 #/src/main/resources/config/application-dev.yml
 #/src/main/java/org/hzero/hps/its/config/MsHrmsExtraDataManager.java
+es6
+
+nacos

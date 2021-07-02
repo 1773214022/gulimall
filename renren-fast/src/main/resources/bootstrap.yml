@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      config: # 配置中心
+        file-extension: yaml
+        server-addr: 192.168.171.128:8848
+        namespace: 7e82dfad-7bbc-40e-be24-59eb79be649  # nacos 命名空间
+        extension-configs:
+          - data-id: ${spring.application.name}.${spring.cloud.nacos.config.file-extension}
+            refresh: true
+        enabled: false
